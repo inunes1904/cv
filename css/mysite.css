@@ -53,6 +53,7 @@ body{
   text-align: center;
   font-family: Montserrat;
   font-size: 1rem;
+  color:#808080;
 }
 
 p{
@@ -87,4 +88,24 @@ text-decoration: underline;
    font-family: Montserrat;
    font-size: 1.5rem;
    line-height: 2;
+}
+
+.star{
+  height: 35px;
+  widht:auto;
+}
+.skills{
+  text-align: center;
+  padding-left: 100px;
+}
+
+.logos{
+  padding-left: 100px;
+  position: relative;
+  display: inline-block;
+}
+
+.stars{
+  position: relative;
+  display: inline-block;
 }
