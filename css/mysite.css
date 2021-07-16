@@ -5,6 +5,10 @@ height: 100%;
 padding-top: 100px;
 }
 
+hr{
+  margin: 0 0 0 0;
+}
+
 .cloud1{
   position: relative;
   left: 350px;
@@ -81,6 +85,7 @@ text-decoration: underline;
 }
 
 .middle-container{
+
   position: relative;
    top: 0px; /* Header Height */
    bottom: 0px; /* Footer Height */
@@ -91,21 +96,35 @@ text-decoration: underline;
 }
 
 .star{
-  height: 35px;
-  widht:auto;
+height: 35px;
+padding-bottom: 30px;
 }
 .skills{
   text-align: center;
-  padding-left: 100px;
+    background-color: #fff2f2;
+    margin: 0 0 0 0;
+
 }
 
 .logos{
+  padding-top: 40px;
   padding-left: 100px;
+  padding-right: 25px;
   position: relative;
   display: inline-block;
+
 }
+#logofunny:hover {
+  border-radius: 100%;
+  background-color:#a60016;
+  border: 50px;
+  padding: 3px;
+  color: #a60016;
+  background-color: #a60016;
+ }
 
 .stars{
   position: relative;
   display: inline-block;
+
 }
