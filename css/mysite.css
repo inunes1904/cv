@@ -22,11 +22,11 @@ left:450px;
 height: 70px;
 width: auto;
 }
-
 .mountain{
-  height: 465px;
-  width: auto;
+  witdh:auto;
+  height:450px;
 }
+
 h1{
 margin:50px auto 0 auto;
 color: #730000;
@@ -126,5 +126,19 @@ padding-bottom: 30px;
 .stars{
   position: relative;
   display: inline-block;
+
+}
+.mel{
+padding-top: 17px;
+padding-left: 15px;
+position: absolute;
+display: inline-block;
+}
+.ahard{
+  padding-left: 150px;
+  padding-right: 250px;
+  padding-top: 15px;
+  display: inline-block;
+  position: relative;
 
 }
