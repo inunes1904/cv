@@ -116,7 +116,7 @@ padding-bottom: 30px;
 }
 #logofunny:hover {
   border-radius: 100%;
-  background-color:#a60016;
+  background-color:#;
   border: 50px;
   padding: 3px;
   color: #a60016;
@@ -141,4 +141,51 @@ display: inline-block;
   display: inline-block;
   position: relative;
 
+}
+
+.btn {
+   background: #F63D3D;
+   background-image: -webkit-linear-gradient(top, #F63D3D, #811616);
+   background-image: -moz-linear-gradient(top, #F63D3D, #811616);
+   background-image: -ms-linear-gradient(top, #F63D3D, #811616);
+   background-image: -o-linear-gradient(top, #F63D3D, #811616);
+   background-image: -webkit-gradient(to bottom, #F63D3D, #811616);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 14px;
+   line-height: 14px;
+   color: #FFFFFF;
+   font-family: Verdana;
+   width: 185px;
+   font-size: 20px;
+   font-weight: 900;
+   padding: 12px;
+   -webkit-box-shadow: 1px 1px 6px 0 #000000;
+   -moz-box-shadow: 1px 1px 6px 0 #000000;
+   box-shadow: 1px 1px 6px 0 #000000;
+   text-shadow: 1px 1px 6px #000000;
+   border: solid #762C2C 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #ED3333 1px;
+   background: #811616;
+   background-image: -webkit-linear-gradient(top, #811616, #F63D3D);
+   background-image: -moz-linear-gradient(top, #811616, #F63D3D);
+   background-image: -ms-linear-gradient(top, #811616, #F63D3D);
+   background-image: -o-linear-gradient(top, #811616, #F63D3D);
+   background-image: -webkit-gradient(to bottom, #811616, #F63D3D);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.bottom-container{
+  background-color: #fff2f2;
 }
